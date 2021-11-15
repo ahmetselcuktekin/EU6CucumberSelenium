@@ -1,4 +1,40 @@
 -------------------------------------------------------------------------------
 Test set: Account types
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 74.328 s - in Account types
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 88.861 s <<< FAILURE! - in Account types
+Driver user(Account types)  Time elapsed: 46.8 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JB8RB3G', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /3.238.26.132:4444
+Caused by: java.net.ConnectException: Connection timed out: connect
+
+Driver user(Account types)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JB8RB3G', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /3.238.26.132:4444
+Caused by: java.net.ConnectException: Connection timed out: connect
+
+Store manager user(Account types)  Time elapsed: 42.058 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JB8RB3G', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /3.238.26.132:4444
+Caused by: java.net.ConnectException: Connection timed out: connect
+
+Store manager user(Account types)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JB8RB3G', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /3.238.26.132:4444
+Caused by: java.net.ConnectException: Connection timed out: connect
+
